@@ -14,28 +14,33 @@ export default function Banner() {
   const [bannerImages, setBannerImages] = useState<BannerImage[]>([
     {
       id: "1",
-      src: "/placeholder.svg?height=300&width=1200&text=Campo+de+Futebol",
-      alt: "Campo de Futebol",
+      src: "/imagens/jg.png",
+      alt: "Depósito de bebidas João Gabriel",
     },
     {
       id: "2",
-      src: "/placeholder.svg?height=300&width=1200&text=Torcida",
-      alt: "Torcida",
+      src: "/imagens/sm.png",
+      alt: "Auto eletrica São Miguel",
     },
     {
       id: "3",
-      src: "/placeholder.svg?height=300&width=1200&text=Gol+Histórico",
+      src: "/imagens/01.jpg",
       alt: "Gol Histórico",
     },
     {
       id: "4",
-      src: "/placeholder.svg?height=300&width=1200&text=Estádio+Lotado",
+      src: "/imagens/jg.png",
       alt: "Estádio Lotado",
     },
     {
       id: "5",
-      src: "/placeholder.svg?height=300&width=1200&text=Comemoração",
+      src: "/imagens/sm.png",
       alt: "Comemoração",
+    },
+    {
+      id: "6",
+      src: "/imagens/01.jpg",
+      alt: "Gol Histórico",
     },
   ])
 
