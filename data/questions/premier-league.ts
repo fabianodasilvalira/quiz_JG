@@ -238,7 +238,7 @@ export const premierLeagueQuestions: Question[] = [
   {
     id: 232,
     question: "Qual clube da Premier League tem o maior número de empates em uma temporada?",
-    options: ["Arsenal", "Everton", "Newcastle United"],
+    options: ["Everton", "Arsenal", "Newcastle United"],
     correctAnswer: "Arsenal",
     explanation: "Arsenal detém o recorde de mais empates em uma temporada da Premier League, com 14 empates na temporada 2002/03.",
     category: "premier_league",
@@ -247,7 +247,7 @@ export const premierLeagueQuestions: Question[] = [
   {
     id: 233,
     question: "Qual clube tem a maior sequência de invencibilidade na Premier League?",
-    options: ["Arsenal", "Manchester City", "Liverpool"],
+    options: [ "Manchester City", "Arsenal","Liverpool"],
     correctAnswer: "Arsenal",
     explanation: "Arsenal detém o recorde de invencibilidade na Premier League com 49 jogos consecutivos sem derrota entre 2003 e 2004.",
     category: "premier_league",
@@ -283,7 +283,7 @@ export const premierLeagueQuestions: Question[] = [
   {
     id: 237,
     question: "Qual clube foi o primeiro a vencer a Premier League na temporada 1992/93?",
-    options: ["Manchester United", "Arsenal", "Blackburn Rovers"],
+    options: [ "Arsenal", "Blackburn Rovers", "Manchester United"],
     correctAnswer: "Manchester United",
     explanation: "Manchester United foi o primeiro clube a vencer a Premier League, na temporada 1992/93.",
     category: "premier_league",
@@ -319,7 +319,7 @@ export const premierLeagueQuestions: Question[] = [
   {
     id: 241,
     question: "Quem foi o artilheiro da Premier League na temporada 2019/20?",
-    options: ["Jamie Vardy", "Mohamed Salah", "Pierre-Emerick Aubameyang"],
+    options: [ "Mohamed Salah","Jamie Vardy", "Pierre-Emerick Aubameyang"],
     correctAnswer: "Jamie Vardy",
     explanation: "Jamie Vardy foi o artilheiro da Premier League na temporada 2019/20, marcando 23 gols pelo Leicester City.",
     category: "premier_league",
@@ -346,7 +346,7 @@ export const premierLeagueQuestions: Question[] = [
   {
     id: 244,
     question: "Quem foi o artilheiro da Premier League na temporada 2017/18?",
-    options: ["Mohamed Salah", "Harry Kane", "Sergio Agüero"],
+    options: [ "Harry Kane", "Sergio Agüero", "Mohamed Salah"],
     correctAnswer: "Mohamed Salah",
     explanation: "Mohamed Salah foi o artilheiro da Premier League na temporada 2017/18, marcando 32 gols pelo Liverpool.",
     category: "premier_league",
@@ -364,7 +364,7 @@ export const premierLeagueQuestions: Question[] = [
   {
     id: 246,
     question: "Quem foi o primeiro jogador a alcançar 100 gols na Premier League?",
-    options: ["Alan Shearer", "Thierry Henry", "Sergio Agüero"],
+    options: [ "Thierry Henry", "Alan Shearer", "Sergio Agüero"],
     correctAnswer: "Alan Shearer",
     explanation: "Alan Shearer foi o primeiro jogador a alcançar 100 gols na Premier League, atingindo a marca em 1995.",
     category: "premier_league",
@@ -391,7 +391,7 @@ export const premierLeagueQuestions: Question[] = [
   {
     id: 249,
     question: "Qual clube da Premier League tem a maior média de pontos por jogo na história?",
-    options: ["Manchester United", "Manchester City", "Chelsea"],
+    options: [ "Manchester City", "Chelsea","Manchester United"],
     correctAnswer: "Manchester City",
     explanation: "Manchester City tem a maior média de pontos por jogo na história da Premier League, com uma taxa superior a 2,3 pontos por jogo.",
     category: "premier_league",

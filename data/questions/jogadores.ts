@@ -450,7 +450,424 @@ import type { Question } from "@/data/questions-structure"
     explanation: "Ronaldinho Gaúcho foi o primeiro jogador brasileiro a conquistar a Liga dos Campeões com o Barcelona, em 2006.",
     category: "jogadores",
     difficulty: "facil",
-  }
+  },
+     {
+    id: 293,
+    question: "Qual clube venceu a primeira edição da Liga dos Campeões no formato atual (1992/93)?",
+    options: ["Barcelona", "Milan", "Olympique de Marseille"],
+    correctAnswer: "Olympique de Marseille",
+    explanation: "O Olympique de Marseille venceu a primeira edição da Liga dos Campeões no formato atual, em 1993.",
+    category: "champions_league",
+    difficulty: "medio"
+  },
+  {
+    id: 294,
+    question: "Qual jogador tem mais títulos da Champions League?",
+    options: ["Cristiano Ronaldo", "Lionel Messi", "Francisco Gento"],
+    correctAnswer: "Francisco Gento",
+    explanation: "Francisco Gento ganhou 6 Copas dos Campeões da Europa com o Real Madrid entre 1956 e 1966.",
+    category: "champions_league",
+    difficulty: "dificil"
+  },
+  {
+    id: 295,
+    question: "Qual jogador é o maior artilheiro da história da Champions League?",
+    options: [ "Lionel Messi", "Cristiano Ronaldo","Robert Lewandowski"],
+    correctAnswer: "Cristiano Ronaldo",
+    explanation: "Cristiano Ronaldo é o maior artilheiro da história da Champions League com mais de 140 gols.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 296,
+    question: "Qual clube venceu a Champions League na temporada 2022/23?",
+    options: [ "Inter de Milão", "Manchester City","Real Madrid"],
+    correctAnswer: "Manchester City",
+    explanation: "O Manchester City venceu a Champions League na temporada 2022/23, seu primeiro título na competição.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 297,
+    question: "Qual clube venceu a Champions League na temporada 2021/22?",
+    options: ["Real Madrid", "Liverpool", "Bayern de Munique"],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu a Champions League na temporada 2021/22, derrotando o Liverpool na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 298,
+    question: "Qual clube venceu a Champions League na temporada 2020/21?",
+    options: ["Manchester City", "Chelsea", "Paris Saint-Germain"],
+    correctAnswer: "Chelsea",
+    explanation: "O Chelsea venceu a Champions League na temporada 2020/21, derrotando o Manchester City na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 299,
+    question: "Qual clube venceu a Champions League na temporada 2019/20?",
+    options: [ "Paris Saint-Germain", "Bayern de Munique","Barcelona"],
+    correctAnswer: "Bayern de Munique",
+    explanation: "O Bayern de Munique venceu a Champions League na temporada 2019/20, derrotando o Paris Saint-Germain na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 300,
+    question: "Qual clube venceu a Champions League na temporada 2018/19?",
+    options: ["Tottenham", "Liverpool", "Barcelona"],
+    correctAnswer: "Liverpool",
+    explanation: "O Liverpool venceu a Champions League na temporada 2018/19, derrotando o Tottenham na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 301,
+    question: "Qual clube venceu a Champions League na temporada 2017/18?",
+    options: [ "Liverpool", "Real Madrid","Roma"],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu a Champions League na temporada 2017/18, derrotando o Liverpool na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 302,
+    question: "Qual clube venceu a Champions League na temporada 2016/17?",
+    options: [ "Juventus", "Real Madrid","Atlético de Madrid"],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu a Champions League na temporada 2016/17, derrotando a Juventus na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 303,
+    question: "Qual clube venceu a Champions League na temporada 2015/16?",
+    options: [ "Atlético de Madrid", "Real Madrid","Bayern de Munique"],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu a Champions League na temporada 2015/16, derrotando o Atlético de Madrid na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 304,
+    question: "Qual clube venceu a Champions League na temporada 2014/15?",
+    options: [ "Juventus", "Barcelona","Real Madrid"],
+    correctAnswer: "Barcelona",
+    explanation: "O Barcelona venceu a Champions League na temporada 2014/15, derrotando a Juventus na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 305,
+    question: "Qual clube venceu a Champions League na temporada 2013/14?",
+    options: [ "Atlético de Madrid", "Real Madrid","Bayern de Munique"],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu a Champions League na temporada 2013/14, derrotando o Atlético de Madrid na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 306,
+    question: "Qual clube venceu a Champions League na temporada 2012/13?",
+    options: [ "Borussia Dortmund", "Bayern de Munique","Barcelona"],
+    correctAnswer: "Bayern de Munique",
+    explanation: "O Bayern de Munique venceu a Champions League na temporada 2012/13, derrotando o Borussia Dortmund na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 307,
+    question: "Qual clube venceu a Champions League na temporada 2011/12?",
+    options: ["Bayern de Munique", "Chelsea", "Barcelona"],
+    correctAnswer: "Chelsea",
+    explanation: "O Chelsea venceu a Champions League na temporada 2011/12, derrotando o Bayern de Munique na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 308,
+    question: "Qual clube venceu a Champions League na temporada 2010/11?",
+    options: ["Manchester United", "Barcelona", "Real Madrid"],
+    correctAnswer: "Barcelona",
+    explanation: "O Barcelona venceu a Champions League na temporada 2010/11, derrotando o Manchester United na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 309,
+    question: "Qual clube venceu a Champions League na temporada 2009/10?",
+    options: [ "Bayern de Munique", "Inter de Milão","Barcelona"],
+    correctAnswer: "Inter de Milão",
+    explanation: "A Inter de Milão venceu a Champions League na temporada 2009/10, derrotando o Bayern de Munique na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 310,
+    question: "Qual clube venceu a Champions League na temporada 2008/09?",
+    options: [ "Manchester United", "Barcelona","Chelsea"],
+    correctAnswer: "Barcelona",
+    explanation: "O Barcelona venceu a Champions League na temporada 2008/09, derrotando o Manchester United na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 311,
+    question: "Qual clube venceu a Champions League na temporada 2007/08?",
+    options: [ "Chelsea", "Manchester United","Barcelona"],
+    correctAnswer: "Manchester United",
+    explanation: "O Manchester United venceu a Champions League na temporada 2007/08, derrotando o Chelsea na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 312,
+    question: "Qual clube venceu a Champions League na temporada 2006/07?",
+    options: [ "Liverpool", "Milan","Manchester United"],
+    correctAnswer: "Milan",
+    explanation: "O Milan venceu a Champions League na temporada 2006/07, derrotando o Liverpool na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 313,
+    question: "Qual clube venceu a Champions League na temporada 2005/06?",
+    options: [ "Arsenal", "Barcelona","Milan"],
+    correctAnswer: "Barcelona",
+    explanation: "O Barcelona venceu a Champions League na temporada 2005/06, derrotando o Arsenal na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 314,
+    question: "Qual clube venceu a Champions League na temporada 2004/05?",
+    options: ["Milan", "Liverpool", "Barcelona"],
+    correctAnswer: "Liverpool",
+    explanation: "O Liverpool venceu a Champions League na temporada 2004/05, derrotando o Milan na final, na famosa 'Virada de Istambul'.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 315,
+    question: "Qual clube venceu a Champions League na temporada 2003/04?",
+    options: [ "Monaco", "Porto","Real Madrid"],
+    correctAnswer: "Porto",
+    explanation: "O Porto venceu a Champions League na temporada 2003/04, derrotando o Monaco na final, sob o comando de José Mourinho.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 316,
+    question: "Qual clube venceu a Champions League na temporada 2002/03?",
+    options: ["Milan", "Juventus", "Real Madrid"],
+    correctAnswer: "Milan",
+    explanation: "O Milan venceu a Champions League na temporada 2002/03, derrotando a Juventus na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 317,
+    question: "Qual clube venceu a Champions League na temporada 2001/02?",
+    options: [ "Bayer Leverkusen", "Real Madrid","Bayern de Munique"],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu a Champions League na temporada 2001/02, derrotando o Bayer Leverkusen na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 318,
+    question: "Qual clube venceu a Champions League na temporada 2000/01?",
+    options: [ "Valencia", "Bayern de Munique","Real Madrid"],
+    correctAnswer: "Bayern de Munique",
+    explanation: "O Bayern de Munique venceu a Champions League na temporada 2000/01, derrotando o Valencia na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 319,
+    question: "Qual clube venceu a Champions League na temporada 1999/00?",
+    options: ["Valencia", "Real Madrid", "Bayern de Munique"],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu a Champions League na temporada 1999/00, derrotando o Valencia na final.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+  {
+    id: 320,
+    question: "Qual clube venceu a Champions League na temporada 1998/99?",
+    options: [ "Bayern de Munique", "Manchester United","Barcelona"],
+    correctAnswer: "Manchester United",
+    explanation: "O Manchester United venceu a Champions League na temporada 1998/99, derrotando o Bayern de Munique na final com uma virada histórica nos minutos finais.",
+    category: "champions_league",
+    difficulty: "facil"
+  },
+
+  // COPA DO MUNDO (30 perguntas)
+  {
+    id: 321,
+    question: "Qual seleção venceu a Copa do Mundo de 2022?",
+    options: ["França", "Argentina", "Brasil"],
+    correctAnswer: "Argentina",
+    explanation: "A Argentina venceu a Copa do Mundo de 2022 no Qatar, derrotando a França nos pênaltis após empate por 3-3.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 322,
+    question: "Quem foi o artilheiro da Copa do Mundo de 2022?",
+    options: ["Kylian Mbappé", "Lionel Messi", "Olivier Giroud"],
+    correctAnswer: "Kylian Mbappé",
+    explanation: "Mbappé foi o artilheiro da Copa do Mundo de 2022 com 8 gols, incluindo um hat-trick na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 323,
+    question: "Qual país sediou a primeira Copa do Mundo em 1930?",
+    options: ["Brasil", "Uruguai", "Itália"],
+    correctAnswer: "Uruguai",
+    explanation: "O Uruguai sediou a primeira Copa do Mundo em 1930 e também foi o campeão.",
+    category: "copa_do_mundo",
+    difficulty: "medio"
+  },
+  {
+    id: 324,
+    question: "Qual seleção é a maior campeã da Copa do Mundo?",
+    options: ["Brasil", "Alemanha", "Itália"],
+    correctAnswer: "Brasil",
+    explanation: "O Brasil é o maior campeão com 5 títulos (1958, 1962, 1970, 1994 e 2002).",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 325,
+    question: "Qual jogador marcou mais gols em Copas do Mundo somando todas as edições?",
+    options: [ "Ronaldo Fenômeno", "Miroslav Klose","Pelé"],
+    correctAnswer: "Miroslav Klose",
+    explanation: "Miroslav Klose marcou 16 gols em Copas do Mundo, sendo o maior artilheiro da história do torneio.",
+    category: "copa_do_mundo",
+    difficulty: "medio"
+  },
+  {
+    id: 326,
+    question: "Qual país sediará a Copa do Mundo de 2026?",
+    options: ["Estados Unidos", "Canadá, México e Estados Unidos", "Brasil"],
+    correctAnswer: "Canadá, México e Estados Unidos",
+    explanation: "A Copa do Mundo de 2026 será sediada conjuntamente por Canadá, México e Estados Unidos.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 327,
+    question: "Qual foi o placar da final da Copa do Mundo de 2014?",
+    options: ["Alemanha 1-0 Argentina", "Alemanha 7-1 Brasil", "Alemanha 2-0 Argentina"],
+    correctAnswer: "Alemanha 1-0 Argentina",
+    explanation: "A Alemanha venceu a Argentina por 1-0 na final da Copa do Mundo de 2014, com gol de Mario Götze na prorrogação.",
+    category: "copa_do_mundo",
+    difficulty: "medio"
+  },
+  {
+    id: 328,
+    question: "Qual seleção venceu a Copa do Mundo de 2018?",
+    options: [ "Croácia", "França","Bélgica"],
+    correctAnswer: "França",
+    explanation: "A França venceu a Copa do Mundo de 2018 na Rússia, derrotando a Croácia por 4-2 na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 329,
+    question: "Qual seleção venceu a Copa do Mundo de 2014?",
+    options: ["Alemanha", "Argentina", "Brasil"],
+    correctAnswer: "Alemanha",
+    explanation: "A Alemanha venceu a Copa do Mundo de 2014 no Brasil, derrotando a Argentina por 1-0 na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 330,
+    question: "Qual seleção venceu a Copa do Mundo de 2010?",
+    options: ["Espanha", "Holanda", "Alemanha"],
+    correctAnswer: "Espanha",
+    explanation: "A Espanha venceu a Copa do Mundo de 2010 na África do Sul, derrotando a Holanda por 1-0 na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 331,
+    question: "Qual seleção venceu a Copa do Mundo de 2006?",
+    options: [ "França", "Itália","Alemanha"],
+    correctAnswer: "Itália",
+    explanation: "A Itália venceu a Copa do Mundo de 2006 na Alemanha, derrotando a França nos pênaltis após empate por 1-1.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 332,
+    question: "Qual seleção venceu a Copa do Mundo de 2002?",
+    options: ["Brasil", "Alemanha", "Itália"],
+    correctAnswer: "Brasil",
+    explanation: "O Brasil venceu a Copa do Mundo de 2002 na Coreia do Sul e Japão, derrotando a Alemanha por 2-0 na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 333,
+    question: "Qual seleção venceu a Copa do Mundo de 1998?",
+    options: ["França", "Brasil", "Croácia"],
+    correctAnswer: "França",
+    explanation: "A França venceu a Copa do Mundo de 1998 em casa, derrotando o Brasil por 3-0 na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 334,
+    question: "Qual seleção venceu a Copa do Mundo de 1994?",
+    options: [ "Itália", "Alemanha", "Brasil"],
+    correctAnswer: "Brasil",
+    explanation: "O Brasil venceu a Copa do Mundo de 1994 nos Estados Unidos, derrotando a Itália nos pênaltis após empate por 0-0.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 335,
+    question: "Qual seleção venceu a Copa do Mundo de 1990?",
+    options: [ "Argentina", "Alemanha","Itália"],
+    correctAnswer: "Alemanha",
+    explanation: "A Alemanha venceu a Copa do Mundo de 1990 na Itália, derrotando a Argentina por 1-0 na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 336,
+    question: "Qual seleção venceu a Copa do Mundo de 1986?",
+    options: ["Argentina", "Alemanha", "França"],
+    correctAnswer: "Argentina",
+    explanation: "A Argentina venceu a Copa do Mundo de 1986 no México, derrotando a Alemanha por 3-2 na final",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 337,
+    question: "Qual seleção venceu a Copa do Mundo de 1982?",
+    options: [ "Alemanha", "Brasil", "Itália"],
+    correctAnswer: "Itália",
+    explanation: "A Itália venceu a Copa do Mundo de 1982 na Espanha, derrotando a Alemanha por 3-1 na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+  {
+    id: 338,
+    question: "Qual seleção venceu a Copa do Mundo de 1978?",
+    options: [ "Holanda", "Brasil", "Argentina"],
+    correctAnswer: "Argentina",
+    explanation: "A Argentina venceu a Copa do Mundo de 1978 em casa, derrotando a Holanda por 3-1 na final.",
+    category: "copa_do_mundo",
+    difficulty: "facil"
+  },
+
 ];
 
 
